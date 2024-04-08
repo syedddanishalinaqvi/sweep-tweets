@@ -1,0 +1,34 @@
+.sidebar{
+    height: 100%;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar-content{
+    display:flex;
+    flex-direction: column;
+    padding-left: 60px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.home-icon>a>.item-content:hover{
+    background-color: white;
+    color:black
+}
+.profile{
+    display: flex;
+}
+
+@media screen and (max-width:800px){
+    .sidebar-content{
+      padding-left: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .sidebar-content{
+        padding-left: 0px;
+    }
+  }

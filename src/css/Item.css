@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  padding: 10px 0px 10px;
+}
+.item-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px 10px 10px;
+  font-size: 30px;
+  font-weight: 200;
+}
+.icon {
+  display: flex;
+}
+.item-content:hover {
+  background-color: rgb(211, 211, 211, 0.2);
+  color: black;
+}
+.icon-content {
+  padding-left: 25px;
+}
+
+@media screen and (max-width:800px){
+    .icon-content{
+      padding-left:0;
+      font-size: 12px;
+  font-weight: 600;
+    }
+    .item-content{
+      flex-direction: column;
+    }
+}
