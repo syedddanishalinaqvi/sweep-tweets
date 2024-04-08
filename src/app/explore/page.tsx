@@ -1,3 +1,4 @@
+'use client'
 import Explore from '@/components/Explore'
 import React from 'react'
 
