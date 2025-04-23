@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {accessToken?(<div className="container">
+        <div className="container">
           <div className="components">
             <div className="sidebar-page">
               <Sidebar/>
@@ -35,7 +35,7 @@ export default function RootLayout({
               <Rightbar/>
             </div>
           </div>
-          </div>):(<ErrorPage/>)}
+          </div>
        </body>
     </html>
   )
